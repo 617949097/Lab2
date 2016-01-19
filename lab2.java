@@ -18,7 +18,7 @@ public class lab2 {
 	
 	boolean manGoingToStIves = true;
 
-	int numWives = 8;
+	int numWives = 7;
 
 	double numSacksPerWife = (int) 7.0 ;
 	

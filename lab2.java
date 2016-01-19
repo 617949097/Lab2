@@ -38,7 +38,7 @@ public class lab2 {
 	    // all of the wives, sacks, cats, and kittens are as well, along
 	    // with the narrator.
 	    // Calculate the number going to St. Ives
-	    total = total+numWives+numCatsPerSack+numCatsPerSack+numKitsPerCat ;
+	    total = total+numWives*numCatsPerSack*numCatsPerSack*numKitsPerCat ;
 	} else {
 	    // Otherwise, only the narrator is going!
 	    total = 1;
@@ -50,7 +50,7 @@ public class lab2 {
 	// Add a statement or statements that will do this.
 	
 	
-	System.out.println("Number going to St.Ives"+ total);
+	System.out.println("Number going to St.Ives"+" "+ total);
     
 	
 	
